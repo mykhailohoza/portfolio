@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>
+    Buggy Form
+  </title>
+
+  <script src="/js/jquery.min.js" type="application/javascript"></script>
+  <script src="/js/jquery-ui.min.js" type="application/javascript"></script>
+  <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/bootstrap.min.js" type="application/javascript"></script>
+
+  <link href="/css/jquery-ui.theme.min.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery.signature.js" type="application/javascript"></script>
+  <link href="/css/jquery.signature.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery.ui.touch-punch.min.js" type="application/javascript"></script>
+
+  <link href="/css/site.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+      function signaturejsLoad() {
+          jQuery('#defaultSignature').signature({syncField: '#signatureJSON'});
+          jQuery('#clearSignatureButton').click(function () {
+              jQuery('#defaultSignature').signature('clear');
+          });
+      }
+  </script>
+</head>
+
+<body>
+<div style="margin: auto; max-width: 715px; padding: 5px">
+  <br/>
+  <form method="post" enctype="multipart/form-data" onSubmit="return validateForm();">
+    <div style="max-width: 400px;">
+    </div>
+    <div style="padding-bottom: 18px;font-size : 24px;">Bug Tracker</div>
+    <div style="padding-bottom: 18px;font-size : 18px;">Report a new bug.</div>
+    <div style="padding-bottom: 18px;">Bug Title<span style="color: red;"> *</span><br/>
+      <input type="text" id="data_3" name="data_3" style="max-width : 550px;" class="form-control"/>
+    </div>
+    <div style="padding-bottom: 18px;">Issue Deskription<span style="color: red;"> *</span><br/>
+      <textarea id="data_4" false name="data_4" style="max-width : 550px;" rows="6" class="form-control"></textarea>
+    </div>
+    <div style="padding-bottom: 18px;">0perating System<span style="color: red;"> *</span><br/>
+      <select id="data_5" name="data_5" style="max-width : 300px;" class="form-control">
+        <option></option>
+        <option>Microsoft Windows 10</option>
+        <option>Microsoft Windows 8</option>
+        <option>Microsoft Windows 7</option>
+        <option>Microsoft Windows XP</option>
+        <option>Mac OS X</option>
+        <option>Google Chrome OS</option>
+        <option>Android</option>
+        <option>Ubuntu</option>
+        <option>Linux Mint</option>
+        <option>Fedora</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div style="padding-bottom: 18px;">Brovser<span style="color: red;"> *</span><br/>
+      <select id="data_6" name="data_6" style="max-width : 300px;" class="form-control">
+        <option>Google Chrome</option>
+        <option>Firefox</option>
+        <option>Internet Explorer</option>
+        <option>Microsoft Edge</option>
+        <option>Safari</option>
+        <option>Opera</option>
+      </select>
+    </div>
+    <div style="padding-bottom: 18px;">Assigned to<span style="color: red;"> *</span><br/>
+      <select id="data_7" name="data_7" style="max-width : 550px;" class="form-control">
+        <option>QA tester 1</option>
+        <option>QA tester 2</option>
+        <option>QA tester 3</option>
+        <option>QA tester 3</option>
+        <option></option>
+      </select>
+    </div>
+    <div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
+      <input type="text" id="data_12" name="data_12" style="max-width : 550px;" class="form-control"/>
+    </div>
+    <div style="padding-bottom: 18px;">Priority<span style="color: red;"> *</span><br/>
+      <span><input type="radio" id="data_8_0" name="data_8" value="Low"/> Low</span><br/>
+      <span><input type="radio" id="data_8_1" name="data_8" value="Medium"/> Medium</span><br/>
+      <span><input type="radio" id="data_8_2" name="data_8_a" value="High"/> High</span><br/>
+    </div>
+    <div style="padding-bottom: 18px;">Screenshot 1<br/>
+      <input id="data_9" name="data_9" style="max-width : 550px;" type="file" class="form-control"/>
+    </div>
+    <div id="screenshot2" style="padding-bottom: 18px;">Screenshot 2<br/>
+      <input id="data_10" name="data_10" style="max-width : 550px;" type="file" class="form-control"/>
+    </div>
+    <div style="padding-bottom: 18px;">Status<span style="color: red;"> *</span><br/>
+      <select id="data_11" name="data_11" style="max-width : 300px;" class="form-control">
+        <option>Closed</option>
+        <option>Re-opened</option>
+        <option>In Queue</option>
+        <option>Active</option>
+        <option>Closed</option>
+        <option>Resolved</option>
+        <option>Re-opened</option>
+      </select>
+    </div>
+    <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
+  </form>
+
+  <script type="text/javascript">
+      function validateForm() {
+          $(".has-error").removeClass("has-error");
+          if (isEmpty(document.getElementById('data_3').value.trim())) {
+              alert('Bug Title is required!');
+              document.getElementById('data_3').parentNode.className += " has-error";
+              return false;
+          }
+          if (isEmpty(document.getElementById('data_4').value.trim())) {
+              alert('Issue Description is required!');
+              document.getElementById('data_4').parentNode.className += " has-error";
+              return false;
+          }
+          if (!document.getElementById('data_8_0').checked && !document.getElementById('data_8_1').checked && !document.getElementById('data_8_2').checked) {
+              alert('Priority is required!');
+              document.getElementById('data_8_0').parentNode.className += " has-error";
+              document.getElementById('data_3').value = "";
+              return false;
+          }
+          document.getElementById("screenshot2").remove();
+          alert('Form submitted!');
+          return false;
+      }
+
+      function isEmpty(str) {
+          return (str.length === 0 || !str.trim());
+      }
+
+      function validateEmail(email) {
+          var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+          return isEmpty(email) || re.test(email);
+      }
+  </script>
+
+
+</div>
+</body>
+
+
+</html>
