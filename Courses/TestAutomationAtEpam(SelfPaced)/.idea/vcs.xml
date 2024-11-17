@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/PythonCore/FinalTask/scrapper-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-dictionaries-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-final-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-final-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-lists-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-lists-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-lists-task-3-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-numbers-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-strings-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-strings-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-strings-task-3-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-strings-task-4-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-tuples-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/data-types-tuples-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M3 Data Types/demo-task-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-decorators-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-decorators-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-decorators-task-3-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-decorators-task-4-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-final-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-final-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-functions-arguments-task-0-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-functions-arguments-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-functions-arguments-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-functions-arguments-task-3-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-recursions-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M4 Functions/functions-decorators-recursions-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/magic-methods-task-5-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/magic-methods-task-6-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-basics-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-basics-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-basics-task-3-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-basics-task-4-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-class-related-decorators-task-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-exceptions-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-exceptions-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-final-tasks-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-final-tasks-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-magic-methods-task-1-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-magic-methods-task-2-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-magic-methods-task-3-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-magic-methods-task-4-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PythonCore/M5 OOP/oop-magic-methods-task-7-student-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python automation/elearning-pytest-arguments-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python automation/elearning-pytest-task-1-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python automation/elearning-pytest-task-2-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python automation/elearning-unittest-task-1-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python automation/elearning-unittest-task-2-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python automation/task-1-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python automation/task-2-template" vcs="Git" />
+  </component>
+</project>

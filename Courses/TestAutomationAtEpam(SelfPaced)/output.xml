@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.11.9 on win32)" generated="2024-11-13T15:51:26.648515" rpa="false" schemaversion="5">
+<suite id="s1" name="Example" source="C:\Users\mykhailo.hoza\PycharmProjects\pythonProject\example.robot">
+<test id="s1-t1" name="Simple Case One" line="2">
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${True}</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2024-11-13T15:51:26.696069" elapsed="0.000998"/>
+</kw>
+<status status="PASS" start="2024-11-13T15:51:26.696069" elapsed="0.000998"/>
+</test>
+<test id="s1-t2" name="Simple Case Two" line="4">
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${True}</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2024-11-13T15:51:26.698064" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-11-13T15:51:26.698064" elapsed="0.000000"/>
+</test>
+<status status="PASS" start="2024-11-13T15:51:26.651227" elapsed="0.047834"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Example">Example</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
