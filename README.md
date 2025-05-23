@@ -1,5 +1,4 @@
-📄 QA & Python Certificates Repository
-Welcome to my certificates repository!
+📄 Welcome to my repository!
 Here I’ve collected official proof of my professional development in the fields of Software Testing, Quality Assurance, and Test automation.
 
 📌 About
